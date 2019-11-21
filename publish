@@ -1,0 +1,2 @@
+SITE=roadmap.licensezero.com
+rsync -a --exclude .git . $SITE:/var/www/$SITE/
